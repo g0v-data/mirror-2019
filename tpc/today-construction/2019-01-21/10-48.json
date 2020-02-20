@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en" prefix='og: http://ogp.me/ns#'>
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=Edge;chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="keywords" content="">
+<meta name="description" content="臺北市政府資料開放平台">
+
+<!-- google seo -->
+<meta itemprop="name" content="臺北市政府資料開放平台">
+<meta itemprop="image" content="https://data.taipei/img/data_taipei.jpg">
+<meta itemprop="description" content="臺北市政府資料開放平台">
+
+<!-- facebook seo -->
+<meta property="og:title" content="臺北市政府資料開放平台" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://data.taipei/index" />
+<meta property="og:image" content="https://data.taipei/img/data_taipei.jpg" />
+<meta property="og:description" content="臺北市政府為推動開放政府(OpenGovernment)之資料開放政策，整合本府各局處開放資料於單一入口網站，供市民瀏覽及程式開發者加值應用。目前平台收錄多項高品質政府開放資料集，並提供線上預覽、檔案下載及API介接等多種服務模式，格式多元且隨時更新。" />
+
+
+<title>臺北市政府資料開放平台</title>
+
+
+<link rel='stylesheet' type='text/css' href='/plugins/adminlte/bootstrap/css/bootstrap.min.css'> 
+<!-- 
+<link rel='stylesheet' type='text/css' href='/plugins/font-awesome/css/font-awesome.min.css'> -->
+<!--  
+<link rel='stylesheet' type='text/css' href='/plugins/ionicons/dist/css/ionicons.min.css'> -->
+
+<link rel='stylesheet' type='text/css' href='/plugins/adminlte/dist/css/AdminLTE.min.css'>
+<!-- 
+<link rel='stylesheet' type='text/css' href='/plugins/adminlte/dist/css/skins/_all-skins.min.css'>  -->
+
+
+<link rel='stylesheet' type='text/css' href='/css/font-awesome.min.css'>
+<link rel='stylesheet' type='text/css' href='/css/flexslider.css'>
+<link rel='stylesheet' type='text/css' href='/css/magnific-popup.css'>
+<link rel='stylesheet' type='text/css' href='/css/jquery.bxslider.css'>
+<link rel='stylesheet' type='text/css' href='/css/module.css'>
+
+<link rel='stylesheet' type='text/css' href='/css/pagination.css'>
+
+<link rel='stylesheet' type='text/css' href='/css/basic.css'>
+
+	<link rel='stylesheet' type='text/css' href='/css/index.css'> 
+	<link rel='stylesheet' type='text/css' href='/plugins/autoComplete/auto-complete.css'>
+
+
+
+</head>
+<body>
+
+<!-- html2canvas begin -->
+<div class="wrapper">
+
+	<div class="header_wrapper">
+		<header>
+			<div class="logo"><a href="/index"><img src="/img/opendata_logo.png" alt=""></a></div>	
+
+			<!-- hamburg -->
+			<div class="hamburg">
+				<span class="aaa"></span>
+				<span class="bbb"></span>
+				<span class="ccc"></span>
+			</div>
+
+			<div class="aside">
+				<ul>
+					<li><a href="/index"  class="m-first">搜尋 </a></li>
+					<li>
+						<a href="#" class="m-first">資料目錄
+							<div class="go_submenu">
+								<i class="fa fa-angle-right" aria-hidden="true"></i>
+							</div>
+						</a>
+						<div class="m-second_bg">
+							<div class="goback second-goback"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>資料目錄 </div>
+							<ul class="ul-second">
+								<li><a href="/dataset/search" class="m-second">所有資料集</a></li>
+								<li><a href="/dataset/subject" class="m-second">主題分類瀏覽</a></li>
+								<li><a href="/dataset/listDownload" class="m-second">資料清單下載</a></li>
+								<li><a href="/dataset/dataGov" class="m-second">國發會資料開放目錄</a></li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<a href="#" class="m-first">開發應用
+							<div class="go_submenu">
+								<i class="fa fa-angle-right" aria-hidden="true"></i>
+							</div>
+						</a>
+						<div class="m-second_bg">
+							<div class="goback second-goback"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>開發應用 </div>
+							<ul class="ul-second">
+								<li><a href="/application/instruction" class="m-second">開發指南</a></li>
+								<li><a href="/application/appExample" class="m-second">應用實例</a></li>
+							</ul>
+						</div>
+					</li>
+					<li><a href="/rule/rule" class="m-first">使用規範</a></li>
+					<li><a href="/news/news" class="m-first">最新消息</a></li>
+					<li><a href="/faq/faq" class="m-first">常見問答</a></li>
+					<li>
+						<a href="#" class="m-first">會員專區
+							<div class="go_submenu">
+								<i class="fa fa-angle-right" aria-hidden="true"></i>
+							</div>
+						</a>
+						<div class="m-second_bg">
+							<div class="goback second-goback"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>會員專區 </div>
+							<ul class="ul-second">
+								<li><a href="/members/wantMore" class="m-second">建議開放資料</a></li>
+								<li><a href="/members/webReply" class="m-second">系統問題回報</a></li>
+								<li><a href="/members/subscription" class="m-second">我的收藏</a></li>
+							</ul>
+						</div>
+					</li>
+					<li><a href="/links/links" class="m-first">相關連結 </a></li>
+					<li>
+						<a href="#" class="m-first">關於網站
+							<div class="go_submenu">
+								<i class="fa fa-angle-right" aria-hidden="true"></i>
+							</div>
+						</a>
+						<div class="m-second_bg">
+							<div class="goback second-goback"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>關於網站 </div>
+							<ul class="ul-second">
+								<li><a href="/about/aboutus" class="m-second">關於我們</a></li>
+								<li><a href="/about/manual" class="m-second">使用說明</a></li>
+								<li><a href="/about/sitemap" class="m-second">網站地圖</a></li>
+								<li><a href="/about/dashboard/visitor" class="m-second">數位儀表板</a></li>
+							</ul>
+						</div>
+					</li>
+					<li><a href="javascript:" class="m-first" data-toggle="modal" data-target="#questionLightbox" onclick="catchImg();"><i class="fa fa-info-circle" aria-hidden="true" ></i></a></li>
+				</ul>
+			</div>
+		</header>
+	</div>
+
+
+	<div class="menu_wrapper">
+		<div class="deskmenu">
+			<ul>
+				<li><a href="/index" class="under-current-tab ">搜尋</a></li>
+				<!-- <div class="lll"></div> -->
+
+				<li>
+					<a href="/dataset/search" class="">資料目錄</a>
+					<div class="sub_a_l">
+						<a href="/dataset/search" class="submenu_link ">所有資料集</a>
+						<a href="/dataset/subject" class="submenu_link ">主題分類瀏覽</a>
+						<a href="/dataset/listDownload" class="submenu_link ">資料清單下載</a>
+						<a href="/dataset/dataGov" class="submenu_link ">國發會資料開放目錄</a>
+					</div>
+					<div class="submenu_bg"></div>
+				</li>
+
+				<!-- <div class="lll"></div> -->
+				<li>
+					<a href="/application/instruction" class="">開發應用</a>
+					<div class="sub_a_l">
+						<a href="/application/instruction" class="submenu_link ">開發指南</a>
+						<a href="/application/appExample" class="submenu_link ">應用實例</a>
+					</div>
+					<div class="submenu_bg"></div>
+				</li>
+				<!-- <div class="lll"></div> -->
+				<li>
+					<a href="/rule/rule" class="">使用規範</a>
+				</li>
+				<!-- <div class="lll"></div> -->
+				<li><a href="/news/news" class="">最新消息 </a></li>
+				<!-- <div class="lll"></div> -->
+				<li><a href="/faq/faq" class="">常見問答</a></li>
+				<!-- <div class="lll"></div> -->
+				<li>
+					<a href="/members/wantMore" class="">會員專區</a>
+					<div class="sub_a_r">
+						<a href="/members/wantMore" class="submenu_link ">建議開放資料</a>
+						<a href="/members/webReply" class="submenu_link ">系統問題回報</a>
+						<a href="/members/subscription" class="submenu_link ">我的收藏</a>
+					</div>
+					<div class="submenu_bg"></div>
+				</li>
+				<!-- <div class="lll"></div> -->
+				<li><a href="/links/links" class="">相關連結</a></li>
+				<!-- <div class="lll"></div> -->
+				<li>
+					<a href="/about/dashboard/visitor" class="">關於網站</a>
+					<div class="sub_a_r">
+						<a href="/about/aboutus" class="submenu_link ">關於我們</a>
+						<a href="/about/manual" class="submenu_link ">使用說明</a>
+						<a href="/about/sitemap" class="submenu_link ">網站地圖</a>
+						<a href="/about/dashboard/visitor" class="submenu_link ">數位儀表板</a>
+					</div>
+					<div class="submenu_bg"></div>
+				</li>
+				<!-- <div class="lll"></div> -->
+				<li><a href="#" data-toggle="modal" data-target="#questionLightbox" onclick="catchImg()"><i class="fa fa-info-circle" aria-hidden="true"></i>&nbsp;系統問題回報</a></li>
+			</ul>
+		</div>
+		<!-- <div class="submenu"></div> -->
+	</div> 	
+		
+
+			
+
+	<!-- mobile menu -->
+
+	<!--     <div class="hamburg">
+			<span class="aaa"></span>
+			<span class="bbb"></span>
+			<span class="ccc"></span>
+		</div>
+		<div class="aside">
+			<ul>
+				<li><a href="#" class="m-first">分類瀏覽</a></li>
+				<li><a href="#" class="m-first">縣市記憶</a></li>
+				<li><a href="#" class="m-first">記憶窗口</a></li>
+				<li><a href="#" class="m-first">線上特展</a></li>
+				<li><a href="#" class="m-first">主題瀏覽</a></li>
+				<li><a href="#" class="m-first">數位授權</a></li>
+
+			</ul>
+		</div> -->
+
+
+
+
+	   
+	<div class="index_container">
+		<h1>Data.Taipei <span class="betaLabel">2.0</span></h1>
+		<div class="input_wrapper">		
+			<input id="keyword" name="keyword" type="text" placeholder="">
+			<div id="search" style="cursor: pointer;" class="submit"><i class="fa fa-search" aria-hidden="true"></i></div>
+		</div>	
+	</div>
+
+
+
+	<!-- Magnific-Popup #1 for login  -->
+	<div id="popup_1" class="open-popup-link show_contnet_01 mfp-hide">
+		
+		<div class="titile"><h4>會員登入</h4></div>
+		<div class="login_item"><p>帳號</p> <input type="text"></div>
+		<div class="login_item"><p>密碼</p> <input type="text"></div>
+		<div class="login_item">
+			<div class="employer"><label for=""><input type="checkbox"></label>一般會員</div>
+			<div class="employer"><label for=""><input type="checkbox"></label>局內員工</div>
+		</div>
+		<a href="" class="submit">登入</a>
+		<a href="" class="forgotpsw">忘記密碼</a>
+
+		<div class="socialmedia">
+			<a href=""><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+			<a href=""><i class="fa fa-google-plus-square" aria-hidden="true"></i></a>
+		</div>
+	</div>
+
+
+	<div class="footer_wrapper">
+		<footer>
+			<div class="footer_link">
+				<a href="/privacy">隱私權保護政策  </a>
+				<a href="/privacy">隱私權及資訊安全政策 </a>
+				<a href="/about/sitemap">網站地圖  </a>
+			</div>
+			<div class="copyright">
+				 <p>02-27208889(代表號), 臺北市民當家熱線 1999(免付費電話服務，公共電話及預付卡除外) 轉 2858 或 2885</p>
+				 <p>services@mail.taipei.gov.tw</p>
+				 <p>11008 臺北市信義區市府路1號</p>
+				<p>臺北市政府資訊局 版權所有 © 2017 Taipei City Government. All Rights Reserved. </p>
+				<p>Powered by ckan</p>
+
+				<p >網站最佳瀏覽解析度 1440px*960px</p>
+			</div>
+		</footer>
+	</div>
+
+<!-- html2canvas end -->
+</div>
+
+
+<div class="modal fade" id="questionLightbox" role="dialog" style="z-index:9999">
+  <div class="modal-dialog" >
+    <div class="modal-content">
+      <div class="modal-header">
+        <mt align='center'>系統問題回報</mt><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+      </div>
+      <div class="modal-body" style="background-color:#eee">
+        <div class='feedback_body' >
+          <div class='fb_imgload' height="300px"> 建立預覽中..</div>
+          <div class='fb_preview'></div>
+
+          <div class='fb_descrip'>
+            <div class=''>
+            <span class='fbd_title' style="margin-right:5px;">回報類型:</span>
+
+            <input type='hidden'  name='questionImage' id="questionImage" value='' >
+            <input type='radio' class='feedback_type' id="feedback_type" name='fbd_type' value='資料問題' ><span style="margin-right:5px;" >資料問題</span>
+            <input type='radio' class='feedback_type' id="feedback_type" name='fbd_type' value='系統問題' ><span style="margin-right:5px;">系統問題</span>
+            <input type='radio' class='feedback_type' id="feedback_type" name='fbd_type' value='使用問題' ><span style="margin-right:5px;">使用問題</span>
+            <input type='radio' class='feedback_type' id="feedback_type" name='fbd_type' value='建議回饋' ><span style="margin-right:5px;">建議回饋</span>
+            </div>
+            <div class='fbd_title'>聯絡信箱:</div>
+            <input class='feedback_content' name='answerEmail' id="answerEmail" style="width:100%"></input>
+            <div class='fbd_title'>回報描述:</div>
+            <textarea  class='feedback_content'  name='answerContent' id="answerContent"></textarea>
+            
+            <div id="questionRecapcha" data-callback="enableQuestionSubmit"></div>
+            
+          </div>
+        </div>
+        
+        <div class='feedback_bottom tr_like' >          
+          <button class="btn btn-default active" id="act_feedback_submit" style="margin-left:85%;display:block!important;" disabled>送出</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript" src="https://www.google.com/recaptcha/api.js?hl=zh-TW&onload=CaptchaCallback&render=explicit" async defer></script>
+<script type="text/javascript">
+    var CaptchaCallback = function() {
+        if(!$('#webReplyRecapcha').length == 0) {
+          	grecaptcha.render('webReplyRecapcha', {
+            	'sitekey' : "6LcXWTEUAAAAALqe9k4cBccZsTfoXOEWApVsWnD1",
+				callback: function() {
+					$('#searchRecord').attr("disabled", false);
+				}
+          	});
+        }
+        grecaptcha.render('questionRecapcha', {
+			'sitekey' : "6LcXWTEUAAAAALqe9k4cBccZsTfoXOEWApVsWnD1",
+			callback: function() {
+				$('#act_feedback_submit').attr("disabled", false);
+			}
+		});
+    };
+</script>
+
+<!-- <script type='text/javascript' src='/js/questionModal.js'></script> -->
+<script type='text/javascript' src='/js/jquery.min.js'></script>
+<script type='text/javascript' src='/js/jquery.magnific-popup.min.js'></script>
+<script type='text/javascript' src='/js/jquery.bxslider.min.js'></script>
+<script type='text/javascript' src='/js/ui.js'></script>
+<script type='text/javascript' src='/js/basic.js'></script>
+<script type='text/javascript' src='/plugins/question/html2canvas.js'></script>
+<script type='text/javascript' src='/plugins/question/canvasloader-min.js'></script>
+
+
+<script type='text/javascript' src='/plugins/adminlte/bootstrap/js/bootstrap.min.js'></script>
+
+<script type='text/javascript' src='/plugins/adminlte/dist/js/app.min.js'></script>
+
+<script>
+	// $(function(){
+	// 	$('.open-popup-link').magnificPopup({
+	// 	  type:'inline',
+	// 	  midClick: true 
+	// 	  // Allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source in href.
+	// 	});
+	// });
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-109522430-1"></script>
+<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+
+	gtag('config', 'UA-109522430-1');
+</script>
+
+
+
+    <script type='text/javascript' src='/js/index.js'></script>
+	<script type='text/javascript' src='/plugins/autoComplete/auto-complete.min.js'></script>
+
+
+
+</body>
+</html>
