@@ -1,0 +1,35 @@
+		<Info routeid="nfb0141" level="1" value="99" traveltime="145" datacollecttime="2019/12/29 22:15:00"></Info>
+		<Info routeid="nfb0413" level="1" value="100" traveltime="254" datacollecttime="2019/12/29 22:15:00"></Info>
+		<Info routeid="nfb0145" level="1" value="97" traveltime="246" datacollecttime="2019/12/29 22:15:00"></Info>
+		<Info routeid="nfb0147" level="1" value="97" traveltime="231" datacollecttime="2019/12/29 22:15:00"></Info>
+		<Info routeid="nfb0149" level="1" value="96" traveltime="187" datacollecttime="2019/12/29 22:15:00"></Info>
+		<Info routeid="nfb0151" level="1" value="90" traveltime="89" datacollecttime="2019/12/29 22:15:00"></Info>
+		<Info routeid="nfb0153" level="1" value="90" traveltime="32" datacollecttime="2019/12/29 22:15:00"></Info>
+		<Info routeid="nfb0155" level="1" value="96" traveltime="53" datacollecttime="2019/12/29 22:15:00"></Info>
+		<Info routeid="nfb0157" level="1" value="103" traveltime="36" datacollecttime="2019/12/29 22:15:00"></Info>
+		<Info routeid="nfb0455" level="2" value="68" traveltime="10" datacollecttime="2019/12/29 22:15:00"></Info>
+		<Info routeid="nfb0457" level="2" value="76" traveltime="67" datacollecttime="2019/12/29 22:15:00"></Info>
+		<Info routeid="nfb0002" level="2" value="67" traveltime="55" datacollecttime="2019/12/29 22:15:00"></Info>
+		<Info routeid="nfb0004" level="1" value="82" traveltime="63" datacollecttime="2019/12/29 22:15:00"></Info>
+		<Info routeid="nfb0006" level="1" value="86" traveltime="99" datacollecttime="2019/12/29 22:15:00"></Info>
+		<Info routeid="nfb0420" level="1" value="90" traveltime="73" datacollecttime="2019/12/29 22:15:00"></Info>
+		<Info routeid="nfb0008" level="1" value="91" traveltime="145" datacollecttime="2019/12/29 22:15:00"></Info>
+		<Info routeid="nfb0012" level="1" value="89" traveltime="38" datacollecttime="2019/12/29 22:15:00"></Info>
+		<Info routeid="nfb0014" level="1" value="93" traveltime="97" datacollecttime="2019/12/29 22:15:00"></Info>
+		<Info routeid="nfb0016" level="1" value="85" traveltime="49" datacollecttime="2019/12/29 22:15:00"></Info>
+		<Info routeid="nfb0018" level="2" value="79" traveltime="69" datacollecttime="2019/12/29 22:15:00"></Info>
+		<Info routeid="nfb0020" level="1" value="90" traveltime="255" datacollecttime="2019/12/29 22:15:00"></Info>
+		<Info routeid="nfb0022" level="1" value="82" traveltime="82" datacollecttime="2019/12/29 22:15:00"></Info>
+		<Info routeid="nfb0024" level="1" value="94" traveltime="76" datacollecttime="2019/12/29 22:15:00"></Info>
+		<Info routeid="nfb0026" level="1" value="103" traveltime="180" datacollecttime="2019/12/29 22:15:00"></Info>
+		<Info routeid="nfb0028" level="1" value="88" traveltime="40" datacollecttime="2019/12/29 22:15:00"></Info>
+		<Info routeid="nfb0030" level="1" value="95" traveltime="47" datacollecttime="2019/12/29 22:15:00"></Info>
+		<Info routeid="nfb0032" level="1" value="88" traveltime="67" datacollecttime="2019/12/29 22:15:00"></Info>
+		<Info routeid="nfb0426" level="1" value="95" traveltime="207" datacollecttime="2019/12/29 22:15:00"></Info>
+		<Info routeid="nfb0034" level="1" value="93" traveltime="287" datacollecttime="2019/12/29 22:15:00"></Info>
+		<Info routeid="nfb0036" level="1" value="99" traveltime="122" datacollecttime="2019/12/29 22:15:00"></Info>
+		<Info routeid="nfb0038" level="1" value="87" traveltime="105" datacollecttime="2019/12/29 22:15:00"></Info>
+		<Info routeid="nfb0040" level="1" value="93" traveltime="72" datacollecttime="2019/12/29 22:15:00"></Info>
+		<Info routeid="nfb0042" level="1" value="100" traveltime="72" datacollecttime="2019/12/29 22:15:00"></Info>
+	</Infos>
+</XML_Head>
