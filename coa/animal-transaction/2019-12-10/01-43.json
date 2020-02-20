@@ -1,0 +1,47 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>
+	系統發生錯誤
+</title>
+<script type="text/javascript" src='/js/jquery-1.3.2.min.js'></script>
+<script type="text/javascript">
+    var codeArr = new Array(6);
+    var idx = 0;
+    $(document).ready(function() {
+        $("#btnShowMsg").hide();
+
+        $(document).keypress(function(e) {
+
+            if (e.which == 13) {
+                idx = 0;
+                if (codeArr[0] == 118 && codeArr[1] == 118 && codeArr[2] == 116
+                && codeArr[3] == 101 && codeArr[4] == 99 && codeArr[5] == 104) {
+                    //$("#btnShowMsg").show();
+                    $("#btnShowMsg").trigger("click");
+                }
+            }
+            else {
+                codeArr[idx] = eval(e.which);
+                idx++;
+            }
+        });
+    });
+</script>
+</head>
+<body>
+    <form name="form1" method="post" action="../Error.aspx" id="form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTcxMjA2NDY3Mw9kFgICAw9kFgICAw8PFgIeBFRleHQF5wfnmbznlJ/pjK/oqqTnmoTntrLpoIE6L09wZW5EYXRhL0FuaW1hbFRyYW5zRGF0YS5hc3B4DQrpjK/oqqToqIrmga865om+5LiN5Yiw57ay6Lev6Lev5b6R44CCDQrloIbnlorlhaflrrk6DQogICDmlrwgU3lzdGVtLldlYi5VSS5QYWdlLkhhbmRsZUVycm9yKEV4Y2VwdGlvbiBlKQ0KICAg5pa8IFN5c3RlbS5XZWIuVUkuUGFnZS5Qcm9jZXNzUmVxdWVzdE1haW4oQm9vbGVhbiBpbmNsdWRlU3RhZ2VzQmVmb3JlQXN5bmNQb2ludCwgQm9vbGVhbiBpbmNsdWRlU3RhZ2VzQWZ0ZXJBc3luY1BvaW50KQ0KICAg5pa8IFN5c3RlbS5XZWIuVUkuUGFnZS5Qcm9jZXNzUmVxdWVzdChCb29sZWFuIGluY2x1ZGVTdGFnZXNCZWZvcmVBc3luY1BvaW50LCBCb29sZWFuIGluY2x1ZGVTdGFnZXNBZnRlckFzeW5jUG9pbnQpDQogICDmlrwgU3lzdGVtLldlYi5VSS5QYWdlLlByb2Nlc3NSZXF1ZXN0KCkNCiAgIOaWvCBTeXN0ZW0uV2ViLlVJLlBhZ2UuUHJvY2Vzc1JlcXVlc3QoSHR0cENvbnRleHQgY29udGV4dCkNCiAgIOaWvCBBU1Aub3BlbmRhdGFfYW5pbWFsdHJhbnNkYXRhX2FzcHguUHJvY2Vzc1JlcXVlc3QoSHR0cENvbnRleHQgY29udGV4dCkg5pa8IGM6XFdpbmRvd3NcTWljcm9zb2Z0Lk5FVFxGcmFtZXdvcms2NFx2NC4wLjMwMzE5XFRlbXBvcmFyeSBBU1AuTkVUIEZpbGVzXHJvb3RcNGVjYzVjZjlcMjM0Y2Q2MWRcQXBwX1dlYl9wNGJ3M2JlZy4yNi5jczog6KGMIDANCiAgIOaWvCBTeXN0ZW0uV2ViLkh0dHBBcHBsaWNhdGlvbi5DYWxsSGFuZGxlckV4ZWN1dGlvblN0ZXAuU3lzdGVtLldlYi5IdHRwQXBwbGljYXRpb24uSUV4ZWN1dGlvblN0ZXAuRXhlY3V0ZSgpDQogICDmlrwgU3lzdGVtLldlYi5IdHRwQXBwbGljYXRpb24uRXhlY3V0ZVN0ZXBJbXBsKElFeGVjdXRpb25TdGVwIHN0ZXApDQogICDmlrwgU3lzdGVtLldlYi5IdHRwQXBwbGljYXRpb24uRXhlY3V0ZVN0ZXAoSUV4ZWN1dGlvblN0ZXAgc3RlcCwgQm9vbGVhbiYgY29tcGxldGVkU3luY2hyb25vdXNseSlkZGS875WzLluMPGKlJh3KPGTHqSUCVKuwtcMXkejz0owV3w==" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="AB827D4F" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAJox49n0VXHyjxiyDCQycdB58j4QoS8RzPsFOhevMUlgw0/R+jtgrA/0Y3i4G2bo/SfxJzd+cF8yioKOEtKRUYb" />
+     
+        <input type="submit" name="btnShowMsg" value="顯示文字方塊" id="btnShowMsg" />
+        本系統發生錯誤，請聯絡系統承辦人!<br />
+        
+     
+    </form>
+</body>
+</html>
